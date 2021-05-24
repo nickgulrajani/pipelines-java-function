@@ -9,11 +9,6 @@
     <packaging>jar</packaging>
 
     <name>Azure Java Functions</name>
-    <functionAppName>nickfuncappname</functionAppName>
-    <functionAppRegion>eastus</functionAppRegion>
-    <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
-    <functionResourceGroup>nickfuncapp-rg</functionResourceGroup>
-
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
