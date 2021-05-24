@@ -8,7 +8,7 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <functionAppName>nickfuncappname</functionAppName>
+        <functionAppName>nickfuncappname</functionAppName>
         <functionAppRegion>eastus</functionAppRegion>
         <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
         <functionResourceGroup>nickfuncapp-rg</functionResourceGroup>
