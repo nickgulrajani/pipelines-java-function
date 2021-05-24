@@ -8,7 +8,6 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>Azure Java Functions</name>
     <functionAppName>nickfuncappname</functionAppName>
         <functionAppRegion>eastus</functionAppRegion>
         <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
